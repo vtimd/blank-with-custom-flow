@@ -1,6 +1,3 @@
-version:
-  type: 0.1
-
 deploy:
   steps:
     terraformOutput:
