@@ -1,0 +1,9 @@
+version:
+  type: 0.1
+
+deploy:
+  steps:
+    terraformOutput:
+      after:
+        - curl -sLS https://get.k3sup.dev | sh
+        - install k3sup /usr/local/bin/
